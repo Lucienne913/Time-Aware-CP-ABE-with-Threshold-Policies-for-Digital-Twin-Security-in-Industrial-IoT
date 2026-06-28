@@ -1,0 +1,585 @@
+% ============================================================
+% Literature Database - Verified References Only
+% Target: IEEE Internet of Things Journal (IoTJ)
+% Last verified: 2026-06-21
+% Majority of references ≥2020; classic foundational works retained
+% where direct citation is required (Sahai2005, Bethencourt2007,
+% Waters2011, Zhu2012, Liu2018_ACNS, Hur2011, Charm2013).
+%
+% Removed during cleanup (2026-06-21):
+%   EclipseDitto  → unused
+%   Li2022ALA     → unused
+%   Ouahidi2026   → replaced by Chattopadhyay2024 for Lagrange
+%   Wang2023_PairingSecurity → arXiv preprint, removed
+% ============================================================
+
+% --- Digital Twin & IoT Foundations ---
+
+@article{Lu2020_DTSecurity,
+  title={Digital twin-driven smart manufacturing: Connotation, reference model, applications and research issues},
+  author={Lu, Yan and Liu, Chao and Wang, Kevin and Huang, Hankui and Xu, Xun},
+  journal={Robotics and Computer-Integrated Manufacturing},
+  volume={61},
+  pages={101837},
+  year={2020},
+  publisher={Elsevier},
+  doi={10.1016/j.rcim.2019.101837}
+}
+
+@article{Fuller2020_DT_Survey,
+  title={Digital twin: Enabling technologies, challenges and open research},
+  author={Fuller, Aidan and Fan, Zhong and Day, Charles and Barlow, Chris},
+  journal={IEEE Access},
+  volume={8},
+  pages={108952--108971},
+  year={2020},
+  publisher={IEEE},
+  doi={10.1109/ACCESS.2020.2998358}
+}
+
+% --- CP-ABE Foundations (Classic References) ---
+
+@inproceedings{Sahai2005,
+  title={Fuzzy identity-based encryption},
+  author={Sahai, Amit and Waters, Brent},
+  booktitle={Advances in Cryptology -- EUROCRYPT 2005},
+  series={Lecture Notes in Computer Science},
+  volume={3494},
+  pages={457--473},
+  year={2005},
+  publisher={Springer},
+  doi={10.1007/11426639_27}
+}
+
+@inproceedings{Bethencourt2007,
+  title={Ciphertext-policy attribute-based encryption},
+  author={Bethencourt, John and Sahai, Amit and Waters, Brent},
+  booktitle={2007 IEEE Symposium on Security and Privacy (SP)},
+  pages={321--334},
+  year={2007},
+  publisher={IEEE},
+  doi={10.1109/SP.2007.11}
+}
+
+@inproceedings{Waters2011,
+  title={Ciphertext-policy attribute-based encryption: An expressive, efficient, and provably secure realization},
+  author={Waters, Brent},
+  booktitle={Public Key Cryptography -- PKC 2011},
+  series={Lecture Notes in Computer Science},
+  volume={6571},
+  pages={53--70},
+  year={2011},
+  publisher={Springer},
+  doi={10.1007/978-3-642-19379-8_4}
+}
+
+@inproceedings{Zhu2012,
+  title={Achieving fine-grained access control with time-bound in cloud computing},
+  author={Zhu, Yan and Ma, Rong and Huang, Hejiao},
+  booktitle={2012 IEEE 5th International Conference on Cloud Computing (CLOUD)},
+  pages={456--463},
+  year={2012},
+  publisher={IEEE},
+  doi={10.1109/CLOUD.2012.36}
+}
+
+@inproceedings{Liu2018_ACNS,
+  title={Time-based direct revocable ciphertext-policy attribute-based encryption with short revocation list},
+  author={Liu, Zhen and Cao, Zhenfu and Wong, Duncan S.},
+  booktitle={Applied Cryptography and Network Security -- ACNS 2018},
+  series={Lecture Notes in Computer Science},
+  volume={10892},
+  pages={516--534},
+  year={2018},
+  publisher={Springer},
+  doi={10.1007/978-3-319-93387-0_28}
+}
+
+@article{Hur2011,
+  title={Attribute-based access control with efficient revocation in data outsourcing systems},
+  author={Hur, Junbeom and Noh, Dong Kun},
+  journal={IEEE Transactions on Parallel and Distributed Systems},
+  volume={22},
+  number={7},
+  pages={1214--1221},
+  year={2011},
+  publisher={IEEE},
+  doi={10.1109/TPDS.2010.203}
+}
+
+@article{Li2022_CPABE_Survey,
+  title={Attribute-based encryption for cloud computing access control: A survey},
+  author={Zhang, Yinghui and Deng, Robert H. and Xu, Shengmin and Sun, Jianfei and Li, Qi and Zheng, Dong},
+  journal={ACM Computing Surveys},
+  volume={53},
+  number={4},
+  pages={1--41},
+  year={2021},
+  publisher={ACM},
+  doi={10.1145/3398036}
+}
+
+% --- CP-ABE Recent Advances (2021-2025) ---
+
+@article{Guo2024,
+  title={An efficient pairing-free ciphertext-policy attribute-based encryption scheme for Internet of Things},
+  author={Guo, Chong and Gong, Bei and Waqas, Muhammad and Alasmary, Hisham and Tu, Shanshan and Chen, Sheng},
+  journal={Sensors},
+  volume={24},
+  number={21},
+  pages={6843},
+  year={2024},
+  publisher={MDPI},
+  doi={10.3390/s24216843}
+}
+
+@article{Zhang2024_TDSC,
+  title={Efficient fine-grained data sharing based on proxy re-encryption in IIoT},
+  author={Zhang, Qingyang and Fu, Yujie and Cui, Jie and He, Debiao and Zhong, Hong},
+  journal={IEEE Transactions on Dependable and Secure Computing},
+  volume={21},
+  number={4},
+  pages={3674--3687},
+  year={2024},
+  publisher={IEEE},
+  doi={10.1109/TDSC.2024.3386690}
+}
+
+@article{DecentralisedMAABE2025,
+  title={A decentralised multi-authority attribute-based encryption for secure and scalable IoT access control},
+  author={Wu, Chung-Yen and Huang, Kuo-Hsuan and Hsu, Chih-Yao},
+  journal={Applied Sciences},
+  volume={15},
+  number={7},
+  pages={3890},
+  year={2025},
+  publisher={MDPI},
+  doi={10.3390/app15073890}
+}
+
+% --- Diffusion Models ---
+
+@inproceedings{Ho2020_DDPM,
+  title={Denoising diffusion probabilistic models},
+  author={Ho, Jonathan and Jain, Ajay and Abbeel, Pieter},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  volume={33},
+  pages={6840--6851},
+  year={2020}
+}
+
+@inproceedings{TabDDPM2023,
+  title={TabDDPM: Modelling tabular data with diffusion models},
+  author={Kotelnikov, Akim and Baranchuk, Dmitry and Rubachev, Ivan and Babenko, Artem},
+  booktitle={International Conference on Machine Learning (ICML)},
+  pages={17564--17579},
+  year={2023},
+  publisher={PMLR}
+}
+
+@inproceedings{CFG2022,
+  title={Classifier-free diffusion guidance},
+  author={Ho, Jonathan and Salimans, Tim},
+  booktitle={NeurIPS Workshop on Deep Generative Models and Downstream Applications},
+  year={2022}
+}
+
+% --- Anomaly Detection ---
+
+@article{Pang2021_AnomalySurvey,
+  title={Deep learning for anomaly detection: A review},
+  author={Pang, Guanshin and Shen, Chunhua and Cao, Longbing and Van Den Hengel, Anton},
+  journal={ACM Computing Surveys},
+  volume={54},
+  number={2},
+  pages={1--38},
+  year={2021},
+  publisher={ACM},
+  doi={10.1145/3439950}
+}
+
+% --- Supplementary References ---
+
+@article{Dai2024_FGCS,
+  title={Blockchain empowered access control for digital twin system with attribute-based encryption},
+  author={Dai, Yueyue and Gu, Bruce and Qu, Youyang and Lu, Yunlong},
+  journal={Future Generation Computer Systems},
+  volume={160},
+  pages={224--237},
+  year={2024},
+  publisher={Elsevier},
+  doi={10.1016/j.future.2024.06.037}
+}
+
+@article{Iqal2024,
+  title={A comprehensive systematic review of access control in {IoT}: Requirements, technologies, and evaluation metrics},
+  author={Iqal, Zeinab M. and Selamat, Ali and Krejcar, Ondrej},
+  journal={IEEE Access},
+  volume={12},
+  pages={9700--9738},
+  year={2024},
+  publisher={IEEE},
+  doi={10.1109/ACCESS.2023.3347495}
+}
+
+@article{Tang2023,
+  title={A diffusion model based on network intrusion detection method for industrial cyber-physical systems},
+  author={Tang, Bin and Lu, Yan and Li, Qi and Bai, Yueying and Yu, Jie and Yu, Xu},
+  journal={Sensors},
+  volume={23},
+  number={3},
+  pages={1141},
+  year={2023},
+  publisher={MDPI},
+  doi={10.3390/s23031141}
+}
+
+@article{Burgos2024,
+  title={Decentralized {IoT} data authentication with signature aggregation},
+  author={Burgos, Jay Boj{\v{c}}i{\v{c}} and Pusti{\v{s}}ek, Matev{\v{z}}},
+  journal={Sensors},
+  volume={24},
+  number={3},
+  pages={1037},
+  year={2024},
+  publisher={MDPI},
+  doi={10.3390/s24031037}
+}
+
+% --- New Replacements for Pre-2020 References ---
+
+@article{Sharma2022,
+  title={Digital twins: State of the art theory and practice, challenges, and open research questions},
+  author={Sharma, Angira and Kosasih, Edward and Zhang, Jie and Brintrup, Alexandra and Calinescu, Anisoara},
+  journal={Journal of Industrial Information Integration},
+  volume={30},
+  pages={100383},
+  year={2022},
+  publisher={Elsevier},
+  doi={10.1016/j.jii.2022.100383}
+}
+
+@article{LiuM2021,
+  title={Review of digital twin about concepts, technologies, and industrial applications},
+  author={Liu, Mengnan and Fang, Shuiliang and Dong, Huiyue and Xu, Cunzhi},
+  journal={Journal of Manufacturing Systems},
+  volume={58},
+  pages={346--361},
+  year={2021},
+  publisher={Elsevier},
+  doi={10.1016/j.jmsy.2020.06.017}
+}
+
+@article{Shruti2023,
+  title={Attribute-based encryption schemes for next generation wireless {IoT} networks: A comprehensive survey},
+  author={Shruti and Rani, Shalli and Sah, Dipanwita and Gianini, Gabriele},
+  journal={Sensors},
+  volume={23},
+  number={13},
+  pages={5921},
+  year={2023},
+  publisher={MDPI},
+  doi={10.3390/s23135921}
+}
+
+@article{Hu2024_TAAC,
+  title={{TAAC}: Secure and efficient time-attribute-based access control scheme in {SDN-IoT}},
+  author={Hu, Qi and Shen, Wentao and Chen, Xueyuan and Liu, Huayu and Meng, Weizhi and Wang, Jian},
+  journal={IET Information Security},
+  volume={2024},
+  pages={8059692},
+  year={2024},
+  publisher={Wiley/IET},
+  doi={10.1049/2024/8059692}
+}
+
+@article{Liu2023_Revocation,
+  title={A lightweight {CP-ABE} scheme with direct attribute revocation for vehicular ad hoc network},
+  author={Liu, Yang and Xu, Siyi and Yue, Dong},
+  journal={Entropy},
+  volume={25},
+  number={7},
+  pages={979},
+  year={2023},
+  publisher={MDPI},
+  doi={10.3390/e25070979}
+}
+
+@article{Ghopur2023,
+  title={Puncturable ciphertext-policy attribute-based encryption scheme for efficient and flexible user revocation},
+  author={Ghopur, Abudukadier and Ma, Jianfeng and Ma, Jianfeng and Miao, Yinbin and Hao, Rui and Jiang, Hui},
+  journal={Science China Information Sciences},
+  volume={66},
+  number={7},
+  pages={172104},
+  year={2023},
+  publisher={Springer},
+  doi={10.1007/s11432-022-3585-9}
+}
+
+@article{Zoghi2024,
+  title={Building an intrusion detection system on {UNSW-NB15}: Reducing the margin of error to deal with data overlap and imbalance},
+  author={Zoghi, Amir and Serpen, Gursel},
+  journal={Concurrency and Computation: Practice and Experience},
+  volume={36},
+  number={25},
+  pages={e8242},
+  year={2024},
+  publisher={Wiley},
+  doi={10.1002/cpe.8242}
+}
+
+% --- User-Confirmed Replacements for Mathematical/Crypto Definitions ---
+
+@article{Chattopadhyay2024,
+  title={Secret sharing: A comprehensive survey, taxonomy and applications},
+  author={Chattopadhyay, Arup Kumar and Saha, Sanchita and others},
+  journal={Computer Science Review},
+  volume={51},
+  pages={100608},
+  year={2024},
+  publisher={Elsevier},
+  doi={10.1016/j.cosrev.2023.100608}
+}
+
+@article{Wang2022_PairingSurvey,
+  title={A survey of pairings on elliptic curve-based cryptography},
+  author={Wang, Bei and Hu, Yupu},
+  journal={Journal of Cryptologic Research},
+  volume={9},
+  number={2},
+  pages={189--209},
+  year={2022},
+  doi={10.13868/j.cnki.jcr.000569}
+}
+
+@misc{Charm2013,
+  title={Charm: A framework for rapidly prototyping cryptosystems},
+  author={Akinyele, Joseph A. and Garman, Christina and Miers, Ian and Pagano, Matthew W. and Rushanan, Michael and Rubin, Aviel D.},
+  howpublished={\url{https://github.com/JHUISI/charm}},
+  year={2013},
+  note={Accessed: 2025-01-15}
+}
+
+% --- Supplementary Literature (User-Confirmed, 2025-06-16) ---
+
+@inproceedings{Cai2023_TimeABE,
+  title={A time-bound data access control scheme based on attribute-based encryption},
+  author={Cai, Yijie and Feng, Yuanyuan and others},
+  booktitle={Proceedings of the 8th International Conference on Cyber Security and Information Engineering (ICCSIE)},
+  year={2023},
+  doi={10.1145/3627357.3627381}
+}
+
+@inproceedings{Li2023_HierarchicalABE,
+  title={Hierarchical attribute-based encryption scheme supporting computing outsourcing and time-limited access in edge computing},
+  author={Li, Ke and Li, Chenhao and Shen, Jian},
+  booktitle={International Conference on Neural Information Processing (ICONIP)},
+  pages={52--64},
+  year={2023},
+  publisher={Springer},
+  doi={10.1007/978-981-99-8080-2_5}
+}
+
+@article{Mun2025_DTSurvey,
+  title={A comprehensive survey on digital twin: Focusing on security threats and requirements},
+  author={Mun, Hyeran and Han, Kyusuk and Damiani, Ernesto and others},
+  journal={IEEE Access},
+  volume={13},
+  pages={73362--73390},
+  year={2025},
+  publisher={IEEE},
+  doi={10.1109/ACCESS.2025.3563200}
+}
+
+@article{Alhamam2025_DTCyber,
+  title={A comprehensive review on cybersecurity of digital twins: Issues, challenges, and future research directions},
+  author={Alhamam, Norah and Rahman, M. M. Hafizur and Aljughaiman, Ahmed},
+  journal={IEEE Access},
+  volume={13},
+  pages={45106--45124},
+  year={2025},
+  publisher={IEEE},
+  doi={10.1109/ACCESS.2025.3549877}
+}
+
+@article{Aouedi2025_IoTSurvey,
+  title={A survey on intelligent Internet of Things: Applications, security, privacy, and future directions},
+  author={Aouedi, Ons and Vu, Thai-Hoc and Sacco, Alessio and others},
+  journal={IEEE Communications Surveys and Tutorials},
+  volume={27},
+  number={2},
+  pages={1238--1292},
+  year={2025},
+  publisher={IEEE},
+  doi={10.1109/COMST.2025.3539956}
+}
+
+@article{Sharma2026_IoTSecurity,
+  title={A comprehensive survey on {IoT} security: Challenges, security issues, and countermeasures},
+  author={Sharma, Ankit and Bhushan, Kriti},
+  journal={Computer Science Review},
+  volume={59},
+  pages={100839},
+  year={2026},
+  publisher={Elsevier},
+  doi={10.1016/j.cosrev.2024.100839}
+}
+
+@article{Gharib2025_IoTPlatforms,
+  title={Security management of horizontal {IoT} platforms: A survey and comparison},
+  author={Gharib, Anastassia and Jaskolka, Jason and Ibnkahla, Mohamed and others},
+  journal={ACM Computing Surveys},
+  volume={58},
+  number={3},
+  pages={1--39},
+  year={2025},
+  publisher={ACM},
+  doi={10.1145/3712012}
+}
+
+@inproceedings{Boneh1998_CDH,
+  title={The Decision {Diffie--Hellman} Problem},
+  author={Boneh, Dan},
+  booktitle={Algorithmic Number Theory, Third International Symposium (ANTS-III)},
+  series={Lecture Notes in Computer Science},
+  volume={1423},
+  pages={48--63},
+  year={1998},
+  publisher={Springer},
+  doi={10.1007/BFb0054851}
+}
+
+@article{Boneh2001_BLS,
+  title={Short Signatures from the {Weil} Pairing},
+  author={Boneh, Dan and Lynn, Ben and Shacham, Hovav},
+  journal={Journal of Cryptology},
+  volume={17},
+  number={4},
+  pages={297--319},
+  year={2004},
+  publisher={Springer},
+  doi={10.1007/s00145-004-0314-9}
+}
+
+% --- Multi-Authority & Post-Quantum ABE (2025-06-26) ---
+
+@article{Zhang2026_MultiAuthority,
+  title={Privacy-improving multi-authority ciphertext-policy attribute-based encryption with internal fraud attack resistance based on blockchain},
+  author={Zhang, Zhaoqian and others},
+  journal={IEEE Transactions on Network Science and Engineering},
+  volume={13},
+  number={4},
+  pages={1817--1837},
+  year={2026},
+  publisher={IEEE},
+  doi={10.1109/TNSE.2025.3564890}
+}
+
+@inproceedings{Datta2025_Decentralized,
+  title={Fully adaptive decentralized {MA-ABE}: Simplified, optimized, {ASP} supported},
+  author={Datta, Pratish and Tomida, Junichi and Vanjani, Nikhil},
+  booktitle={Advances in Cryptology -- ASIACRYPT 2025},
+  series={Lecture Notes in Computer Science},
+  year={2025},
+  publisher={Springer},
+  note={IACR ePrint 2025/1628}
+}
+
+@article{Penuelas2024_MultiAuthority,
+  title={A revocable multi-authority attribute-based encryption scheme for fog-enabled {IoT}},
+  author={Pe{\~{n}}uelas-Angulo, Alejandro and Feregrino-Uribe, Claudia and Morales-Sandoval, Miguel},
+  journal={Journal of Systems Architecture},
+  volume={157},
+  pages={103041},
+  year={2024},
+  publisher={Elsevier},
+  doi={10.1016/j.sysarc.2024.103041}
+}
+
+@article{Gasparini2026_LatticeBenchmark,
+  title={Cross-primitive comparison in {CP-ABE}: Bilinear pairing versus lattices},
+  author={Gasparini, Lorenzo and Onofri, Elia and Palmucci, Martina and Pedicini, Marco},
+  journal={Journal of Mathematical Cryptology},
+  volume={20},
+  number={1},
+  pages={20250051},
+  year={2026},
+  publisher={De Gruyter},
+  doi={10.1515/jmc-2025-0051}
+}
+
+@article{YeLin2025_MultiAuthority,
+  title={Multi-authority {CP-ABE} scheme with cryptographic reverse firewalls for internet of vehicles},
+  author={Ye Lin and Hu Xiong and Hui Su and others},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  volume={26},
+  number={4},
+  pages={1--12},
+  year={2025},
+  publisher={IEEE}
+}
+
+@article{Cini2025_LatticeMAABE,
+  title={Lattice-based multi-authority/client attribute-based encryption for circuits},
+  author={Cini, Valerio and Lai, Russell W. F. and Woo, Ivy K. Y.},
+  journal={IACR Communications in Cryptology},
+  volume={1},
+  number={4},
+  year={2025},
+  doi={10.62056/ahmpgy4e-},
+  publisher={International Association for Cryptologic Research}
+}
+
+@article{Poomekum2025_Lattice,
+  title={Fine-grained and lightweight quantum-resistant access control system with efficient revocation for {IoT} cloud},
+  author={Poomekum, Potchakorn and Suriyawong, Arisara and Fugkeaw, Somchart},
+  journal={IEEE Open Journal of the Communications Society},
+  volume={6},
+  pages={1},
+  year={2025},
+  publisher={IEEE}
+}
+
+@article{Bagchi2025_PostQuantum,
+  title={Designing quantum-safe lattice-based multi-authority {CP-ABE} scheme for blockchain-enabled {IoT}-based consumer healthcare electronics},
+  author={Bagchi, Prithwi and Bisht, Abhishek and Das, Ashok Kumar and others},
+  journal={IEEE Transactions on Consumer Electronics},
+  volume={71},
+  number={2},
+  pages={1},
+  year={2025},
+  publisher={IEEE}
+}
+
+@article{Chen2025_PairingFree,
+  title={Pairing-free attribute-based signature with message recovery for industrial internet of things},
+  author={Chen, Yu and Li, Jiguo and Lu, Yang and others},
+  journal={IEEE Transactions on Dependable and Secure Computing},
+  volume={22},
+  number={6},
+  pages={1--12},
+  year={2025},
+  publisher={IEEE}
+}
+
+@article{Khan2025_HybridABAC,
+  title={Hybrid attribute-based access control framework for intelligent computing in consumer {IIoT}},
+  author={Khan, Wahib Jamal and Sun, Weifeng and Alanazi, Meshari Huwaytim and others},
+  journal={IEEE Transactions on Consumer Electronics},
+  volume={72},
+  number={1},
+  pages={1615--1622},
+  year={2025},
+  publisher={IEEE}
+}
+
+@article{Rahman2025_TrustEdge,
+  title={Trust at the edge: {ABAC}-secured federated learning for smart home access control using blockchain},
+  author={Rahman, Sohanur and Wang, Yi and Wei, Bingyang},
+  journal={IEEE Access},
+  volume={13},
+  pages={1},
+  year={2025},
+  publisher={IEEE}
+}

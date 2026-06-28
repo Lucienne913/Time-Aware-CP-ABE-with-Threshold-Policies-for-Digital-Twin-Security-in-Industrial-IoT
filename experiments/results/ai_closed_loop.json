@@ -1,0 +1,20 @@
+[
+  {
+    "n_revoke": 1,
+    "loop_time_ms": 919.9,
+    "loop_time_std": 19.2,
+    "old_key_fail_rate": 100
+  },
+  {
+    "n_revoke": 3,
+    "loop_time_ms": 908.7,
+    "loop_time_std": 20.4,
+    "old_key_fail_rate": 100
+  },
+  {
+    "n_revoke": 5,
+    "loop_time_ms": 910.3,
+    "loop_time_std": 19.3,
+    "old_key_fail_rate": 100
+  }
+]
