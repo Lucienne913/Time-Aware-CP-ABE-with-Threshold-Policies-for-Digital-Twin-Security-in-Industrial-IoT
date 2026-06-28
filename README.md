@@ -31,7 +31,6 @@ See [`paper/figures/fig01_system_architecture.pdf`](paper/figures/fig01_system_a
 ## Directory Structure
 
 ```
-academic_implementation/
 ├── src/                      # Core source code
 │   ├── t_cp_abe.py           # T-CP-ABE implementation
 │   ├── setup.py              # Bilinear pairing setup
